@@ -1,0 +1,154 @@
+.transparent_class {
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+html, body {
+  background: #EEE;
+  font-family: Arial;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: #C51548;
+  color: #FFF;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+h1 a {
+  color: #FFF;
+}
+
+p {
+  padding-left: 20px;
+  line-height: 1.3em;
+}
+
+p a {
+  color: #664166;
+}
+
+canvas {
+  margin: 10px 0;
+  background: #170F01;
+  width: 100%;
+}
+
+#headerImage {
+  text-align: center;
+  background: #36AAEF;
+  padding: 26px 0;
+  width: 100%;
+}
+
+#mainpageContainer {
+  position: absolute;
+  background: #300510;
+  color: #FFF; 
+  left: 500px;
+  top: 352px;
+  width: 408px;
+  height: 248px;
+  padding: 10px 16px 10px 10px;
+  letter-spacing: .06em;
+}
+
+
+#comingSoon {
+  background: #170F01;
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+#iPad_games_apps_title {
+  background: #733C8C;
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px;
+  padding-left: 200px;
+  margin: 0px;
+}
+
+#iPad_games_apps_body {
+  background: #38290F;
+  height: 1400px;
+  padding: 10px 16px 10px 10px;
+}
+
+#sweet_little_eggs_title {
+  background: #0A97CF;
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+#sweet_little_eggs_box {
+  float: left;
+  margin: 40px 80px 40px 80px;
+  background: #BDE8F2;
+  width: 400px;
+}
+
+#cupcakes_title {
+  background: #F21B4D;
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+#cupcakes_box {
+  float: left;
+  margin: 40px 80px 40px 80px;
+  background: #BDE8F2;
+  width: 400px;
+}
+
+#cupcakes_box p {
+  padding-right: 14px;
+}
+
+#and_more_box {
+  float: left;
+  margin: 40px 80px 40px 80px;
+  background: #BDE8F2;
+  width: 400px;
+}
+
+#and_more_title {
+  background: #6F9C17;
+  color: #FFF;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+#and_more_box p {
+  padding-right: 14px;
+}
+#screenshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+

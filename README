@@ -1,0 +1,27 @@
+This is all the code for the website fuzzyrainbow.com.
+
+The main content is currently just static html/css. 
+
+The flower garden at the bottom is dynamically drawn client-side with 
+processing.js onto an HTML5 canvas.
+
+Images and stylesheets are stored in Amazon S3.  To set this up, I 
+configured GoDaddy's Total Domain Control to point 
+http://cdn.fuzzyrainbow.com to an Amazon S3/CloudFront bucket that 
+acts as a static file server.  (Any S3 uploader, e.g. S3Fox or S3 
+Organizer works well for uploading static files.)
+
+The index page is served from Nginx, running on a Linode VPS (Ubuntu 
+9.10).  It was the easiest way to work around Amazon S3/CloudFront's 
+limitation of not being able to serve default root pages/index files.
+
+The .js files are served from Nginx as well, to avoid cross-site js 
+browser warnings.
+
+
+About this
+
+Fuzzy Rainbow is a tiny indie mobile app development studio, focusing 
+on apps and games for the iPhone and iPad.  Follow @fuzzy_rainbow on 
+Twitter for more info.
+

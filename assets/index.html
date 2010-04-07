@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="keywords" content="Fuzzy Rainbow" /> 
+  <meta name="description" content="Fuzzy Rainbow makes cute, colorful web and print-based things" /></head> 
+  <title>Fuzzy Rainbow</title>
+  <script src="processing.min.js"></script>
+  <script src="init.js"></script>
+  <link rel="stylesheet" href="http://cdn.fuzzyrainbow.com/style.css"/>
+</head>
+<body>
+
+<h1>the little things in life make me happy</h1>
+
+<div id="headerImage">
+<img src="http://cdn.fuzzyrainbow.com/fuzzyrainbow_header.png" alt="Fuzzy Rainbow"></img>
+</div>
+
+<div id="comingSoon"><h2>specializing in cute, colorful games and apps<h2></div>
+
+<div id="iPad_games_apps_body">
+<div id="sweet_little_eggs_box">
+<h2 id="sweet_little_eggs_title">
+sweet little eggs
+</h2>
+<img id="screenshot" src="http://cdn.fuzzyrainbow.com/sweet_little_eggs_screenshot.png" alt="Screenshot from the iPad game Sweet Little Eggs"></img>
+<p>A high-speed egg-matching game for iPad.</p>
+<p><a href="http://vimeo.com/10546661">Video preview</a></p>
+<p>Coming April 2010.</p>
+</div>
+
+<div id="cupcakes_box">
+<h2 id="cupcakes_title">
+cupcakes take over the bitter world with their sweetness
+</h2>
+<img id="screenshot" src="http://cdn.fuzzyrainbow.com/cupcakes_screenshot.jpg" alt="Screenshot from the iPad game Sweet Little Eggs"></img>
+<p>A bouncy accelerometer-tilt game for iPhone and iPad, complete with an in-game level editor.</p>
+<p><a href="http://vimeo.com/10540037">Video preview</a></p>
+<p>Coming May 2010.</p>
+</div>
+
+<div id="and_more_box">
+<h2 id="and_more_title">
+...and more
+</h2>
+<p>There's something else that's still top secret, and it's not a game.</p>
+<p>Follow <a href="http://twitter.com/fuzzy_rainbow">@fuzzy_rainbow</a> on Twitter for updates on our launches and to get free promo codes for our apps.</p>
+</div>
+
+</div>
+
+
+<script type="application/processing">
+size(1280, 300);
+smooth();
+background(#170F01);
+
+for(int j = 0; j < width; j += 60) {
+  float y = random(100, 130);
+  float d = random(60, 80);
+  strokeWeight(6);
+  stroke(#7E9E13, 100);
+  line(j, y+(d/2)+9, j, 300);
+  noStroke();
+  fill(#DB0C6B, 90);
+  ellipse(j, y, 1.2*d, 1.2*d);
+  ellipse(j, y, 2*d/3, 2*d/3);
+
+}
+
+strokeWeight(10);
+for(int i = 0; i < width; i += 10) {
+  float x = random(i-20, i+20);
+  stroke(#7E9E13, 100);
+  line(i, 200, x, height);
+}
+</script><canvas width="1280" height="300"></canvas>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9915030-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
